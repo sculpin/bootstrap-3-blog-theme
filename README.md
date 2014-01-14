@@ -62,6 +62,7 @@ This requires some additional configuration in your `sculpin.json`.
         "component-dir": "source/components"
     }
 }
+```
 
 The `component-dir` is important as it will ensure that the components are
 installed into your sources directory.
