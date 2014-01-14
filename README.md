@@ -28,6 +28,7 @@ your `sculpin.json`:
         "sculpin/bootstrap-3-blog-theme": "dev-master"
     }
 }
+```
 
 Once installed, modify `app/config/sculpin_kernel.yml` like this:
 
@@ -64,3 +65,9 @@ This requires some additional configuration in your `sculpin.json`.
 
 The `component-dir` is important as it will ensure that the components are
 installed into your sources directory.
+
+
+Not Invented Here
+-----------------
+
+Largely inspired by [Octopress](http://octopress.org/) classic theme.
