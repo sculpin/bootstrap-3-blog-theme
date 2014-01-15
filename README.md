@@ -38,13 +38,6 @@ sculpin_theme:
     theme: sculpin/bootstrap-3-blog-theme
 ```
 
-Lastly, if you have `sources/assets/css/style.css` already, and you have an
-`@import` line that refers to a different theme, update it to point to this one:
-
-```css
-@import url('../../themes/sculpin/bootstrap-3-blog-theme/assets/css/style.css');
-```
-
 Not Invented Here
 -----------------
 
