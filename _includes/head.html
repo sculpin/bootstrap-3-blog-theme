@@ -9,4 +9,10 @@
     {% endif %}
     {% include "custom/fonts" %}
     {% include "custom/head" %}
+    {% set stylesheet %}{{ theme_path("assets/css/style.css") }}{% endset %}
+    {% set theme_stylesheet %}{{ theme_path("assets/css/style.css", true) }}{% endset %}
+    {% if stylesheet != theme_stylesheet %}
+        <link href="{{ site.url }}/{{ theme_stylesheet }}" rel="stylesheet" media="screen">
+    {% endif %}
+    <link href="{{ site.url }}/{{ stylesheet }}" rel="stylesheet" media="screen">
 </head>
